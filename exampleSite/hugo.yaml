@@ -30,6 +30,16 @@ markup:
 
 Menus:
   main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -49,7 +59,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Portfolio Datascience"
+  title: "Portfolio"
   description: Portfolio datascience
   # staticPath: ""  # The path to serve the static files from
 
@@ -268,8 +278,8 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: Ma boîte mail est toujours ouverte. Si vous êtes intéressé par mon profil ou pour travailler sur un sujet, n'hésitez pas à revenir vers moi !
-    btnName: Mail me
+    content: Ma boîte mail est ouverte. Si vous êtes intéressé par mon profil et que vous souhaitez travailler avec moi, faites le moi savoir !
+    btnName: Envoyez moi un mail
     btnLink: mailto:elliot.rault-maisonneuve@outlook.fr
     # formspree:
     #   enable: true # `contact.email` value will be ignored
