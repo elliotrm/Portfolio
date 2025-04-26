@@ -114,8 +114,8 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -126,20 +126,22 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
+      disableBlog: true
+      disableGallery: true
 
   # Hero
   hero:
     enable: true
-    intro: "Bonjour,"
-    title: "Je m'appelle Elliot Rault-Maisonneuve"
+    intro: "Bonjour, je m'appelle"
+    title: "Elliot Rault-Maisonneuve"
     subtitle: "Je trouve des solutions à vos problématiques dans la data"
     content: "Je suis étudiant en Master Mathématiques Appliquées aux Statistiques avec ambition d'accompagner les entreprises dans la transformation de vos insights liés à la data"
-    image: /images/me.png
+    image: /images/me.jpg
     bottomImage:
       enable: true
-      roundImage: true # Make hero image circular | default false
+      # roundImage: true # Make hero image circular | default false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -151,7 +153,7 @@ params:
   about:
     enable: true
     title: "A propos de moi"
-    image: "/images/Image-pro.png"
+    image: "/images/Image-pro.jpg"
     content: |-
       Je suis ...
 
@@ -221,6 +223,7 @@ params:
         school:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
+        date: "2021 - 2024"
         GPA: "Mention Bien"
 
   # projects
@@ -279,7 +282,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:elliot.rault-maisonneuve@outlook.fr
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
