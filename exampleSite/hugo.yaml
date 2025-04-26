@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
-languageCode: "en-us"
-title: "Hugo Profile"
+baseURL: "https://portfolio-elliotrm.netlify.app"
+languageCode: "fr-fr"
+title: "Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -59,10 +59,9 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Portfolio"
+  description: Portfolio datascience
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -133,114 +132,68 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Elliot."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    intro: "Bonjour,"
+    title: "Je m'appelle Elliot Rault-Maisonneuve"
+    subtitle: "Je trouve des solutions à vos problématiques dans la data"
+    content: "Je suis étudiant en Master Mathématiques Appliquées aux Statistiques avec ambition d'accompagner les entreprises dans la transformation de vos insights liés à la data"
+    image: /images/me.png
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      roundImage: true # Make hero image circular | default false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/elliotrm
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/elliot-rault-maisonneuve-904a31277/
 
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: "A propos de moi"
+    image: "/images/Image-pro.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      Je suis ...
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      blablabla je fais plein de choses
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Voici différents langages et technologies avec lesquels je suis familier"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Pour la science des données : Python / R / SAS"
+        - "Pour la visualisation des données : PowerBI, RShiny, QlikSense, Apache Superset"
+        - "Pour l'esthétisme de la visualisation des données : HTML/CSS/JS/PHP"
+        - "Pour la gestion des projets : Dataiku, Git"
+        - "Pour la présentation des résultats : Pack Office"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Data Challenge"
+        company: "Enedis - Faculté des Sciences Économiques - Rennes"
+        companyUrl: "https://www.enedis.fr/"
+        date: "Janvier 2025"
+        content: "Prédiction des goulots d’étranglement au sein de l’activité d’Enedis, en nettoyant les données existantes (des chantiers, des horaires d'employés et le nombre d'employés disponibles), visualisation des données puis prédiction avec un modèle ARIMA"
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+      - job: "Assistant de Recherche en Stage"
+        company: "Unissia - Plérin"
+        companyUrl: "https://www.unissia.com/"
+        date: "Mai 2024 - Août 2024"
+        content: 
+          Stage très intéressant où l'on a pu me proposer différentes missions liées à l'analyse de données et également en recherche pour améliorer un outil existant 
+          
+          - Programmation SAS pour du traitement de données
+          - Conception d’un tableau de bord (QlikSense) sur l’utilisation d’une application dans la filière porcine (PigConnect)
+          - Conception d’un outil d’apprentissage supervisé (avec TensorFlow) pour prédire la distance de muscle et de gras
+          - Travail en autonomie, réunion, présentation et reporting
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Challenge Dataviz"
+        company: "STEF - Faculté des Sciences Économiques - Rennes"
+        companyUrl: "https://www.stef.com/france/"
+        date: "Mars 2024"
+        content: Tableau de bord gestion RH qui a été réalisé sur Excel, avec des données qui nécessitaient un certain traitement.
 
   # Education
   education:
@@ -248,64 +201,27 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master Mathématiques Appliquées aux Statistiques, Parcours Science des données Statistiques et Économétrie"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Université de Rennes"
+          url: "https://www.univ-rennes.fr/"
+        date: "2024 - 2026"
+        GPA: "En cours d'obtention"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          Consolidation des notions en mathématiques appliquées, apprentissage de différents langages de programmation et de gestion de base de données tels que Python, R, SAS, SQL dans le traitement des données, la visualisation des données, la prédiction des données.
+      - title: "Magistère Statistique et Modélisation Économique"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Université de Rennes"
+          url: "https://www.univ-rennes.fr/"
+        date: "2023 - 2026"
+        GPA: "En cours d'obtention"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          blablabla
+      - title: "Licence Mathématiques, Informatique, Appliquées aux Sciences Humaines et Sociales"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
-  # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+          name: "Université de Rennes"
+          url: "https://www.univ-rennes.fr/"
+        GPA: "Mention Bien"
 
   # projects
   projects:
@@ -372,18 +288,9 @@ params:
     #   messageRows: 5
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/elliotrm
+      linkedin: https://www.linkedin.com/in/elliot-rault-maisonneuve-904a31277/
 
   # List pages like blogs and posts
   listPages:
