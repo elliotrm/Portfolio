@@ -34,8 +34,7 @@ params:
   description: Portfolio datascience
   # staticPath: ""  # The path to serve the static files from
   favicon: "/portfolio.png"
-  customCSS:
-    - /css/custom.css
+  
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -334,13 +333,5 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  customScripts: -|
-    <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        const brandLogo = document.querySelector('.navbar-brand img');
-        if (brandLogo) {
-          brandLogo.style.height = '50px';
-          brandLogo.style.width = 'auto';
-        }
-      });
-    </script>
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
