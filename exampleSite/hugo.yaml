@@ -253,6 +253,17 @@ params:
           - icon: fab fa-github
             url: https://github.com/elliotrm/SkateparkDashboard
 
+      - title: Bien être économique des français
+        content: Analyse du bien être économique des français en cherchant à expliquer les facteurs du bien être économique des français (ici le bonheur de la population française)
+        image: /images/projects/bienetreeco.png
+        badges:
+          - "R"
+          - "Régression linéaire"
+          - "Économétrie"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/elliotrm/BienetreeconomiqueFR
+
   #Contact
   contact:
     enable: true
