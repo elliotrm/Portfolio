@@ -218,11 +218,7 @@ params:
     title: "Projets Universitaires"
     items:
       - title: ATP Tour Dashboard
-        content: |-
-          Développement d'un tableau de bord interactif sur le tennis professionnel masculin :
-          - Visualisation de statistiques joueurs/équipes.
-          - Clustering de performances.
-          - Prédictions de résultats de matchs via des modèles de machine learning.
+        content: Développement d'un tableau de bord interactif sur le tennis professionnel masculin avec une visualisation de statistiques joueurs/équipes, un clustering de performances et des prédictions de résultats de matchs via des modèles de machine learning.
         image: /images/projects/ATPtourdashboard.png
         featured:
           name: Demo
@@ -236,11 +232,7 @@ params:
             url: https://github.com/elliotrm/Dashboard-ATPTOUR
 
       - title: Analyse et prévisions du cours du CAC40
-        content: |-
-          Projet complet d'analyse du CAC40 sur PowerBI :
-          - Nettoyage et analyse de données boursières (2023-2024).
-          - Visualisations dynamiques des tendances.
-          - Prévisions de l'évolution du marché pour le mois de janvier à l'aide de modèles de séries temporelles.
+        content: Projet complet d'analyse du CAC40 sur PowerBI avec un nettoyage et analyse de données boursières (2023-2024), des visualisations dynamiques des tendances et des prévisions de l'évolution du marché pour le mois de janvier à l'aide de modèles de séries temporelles.
         image: /images/projects/CAC40PowerBI.png
         badges:
           - "PowerBI"
@@ -251,11 +243,7 @@ params:
             url: https://github.com/elliotrm/Analyse_prevision_du_cours_du_CAC40
 
       - title: Skatepark Dashboard
-        content: |-
-          Conception d'un tableau de bord d'aide à l'aménagement urbain :
-          - Cartographie des skateparks existants de Rennes Métropole.
-          - Analyse de zones de chalandise à l'échelle des IRIS.
-          - Proposition d'un nouvel emplacement optimal basé sur des indicateurs socio-démographiques.
+        content: Conception d'un tableau de bord d'aide à l'aménagement urbain avec une cartographie des skateparks existants de Rennes Métropole, une analyse de zones de chalandise à l'échelle des IRIS et une proposition d'un nouvel emplacement optimal basé sur des indicateurs socio-démographiques.
         image: /images/projects/Skateparkdashboard.png
         badges:
           - "Quarto Dashboard"
