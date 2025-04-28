@@ -1,11 +1,4 @@
-/* Agrandir l'image dans la navbar */
-.navbar .brand-logo {
-    width: 100px;  /* Exemple de taille à ajuster */
-    height: auto;
-}
-
-/* Agrandir l'image dans le footer */
-.footer .brand-logo {
-    width: 100px;  /* Exemple de taille à ajuster */
-    height: auto;
-}
+.navbar-brand img {
+    height: 50px; /* Ajustez cette valeur selon vos besoins */
+    width: auto;
+  }
