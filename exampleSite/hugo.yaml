@@ -187,7 +187,7 @@ params:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2024 - 2026"
-        GPA: "En cours d'obtention"
+        Note: "En cours d'obtention"
         content: |-
           Formation approfondie en statistique, machine learning, économétrie et traitement de données.
           - Maîtrise de Python, R, SAS et SQL pour l'analyse, la modélisation et la visualisation de données.
@@ -197,7 +197,7 @@ params:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2023 - 2026"
-        GPA: "En cours d'obtention"
+        Note: "En cours d'obtention"
         content: |-
           Double diplôme en parallèle avec le master, visant à approfondir l'expertise en statistique appliquée et en modélisation économique.
           - Enseignements spécialisés en probabilités, Monte Carlo et Chaîne de Markov, Statistique spatiale, Analyse de survie.
@@ -207,7 +207,7 @@ params:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2021 - 2024"
-        GPA: "Mention Bien (5e/36)"
+        Note: "Mention Bien (5e/36)"
         content: |-
           Formation pluridisciplinaire combinant mathématiques, statistiques, informatique et sciences sociales.
           - Acquisition de bases solides en programmation, statistique inférentielle et analyse de données.
