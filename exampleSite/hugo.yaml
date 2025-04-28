@@ -218,7 +218,7 @@ params:
     title: "Projets Universitaires"
     items:
       - title: ATP Tour Dashboard
-        content: |
+        content: |-
           Développement d'un tableau de bord interactif sur le tennis professionnel masculin :
           - Visualisation de statistiques joueurs/équipes.
           - Clustering de performances.
@@ -236,7 +236,7 @@ params:
             url: https://github.com/elliotrm/Dashboard-ATPTOUR
 
       - title: Analyse et prévisions du cours du CAC40
-        content: |
+        content: |-
           Projet complet d'analyse du CAC40 sur PowerBI :
           - Nettoyage et analyse de données boursières (2023-2024).
           - Visualisations dynamiques des tendances.
@@ -251,7 +251,7 @@ params:
             url: https://github.com/elliotrm/Analyse_prevision_du_cours_du_CAC40
 
       - title: Skatepark Dashboard
-        content:  |
+        content: |-
           Conception d'un tableau de bord d'aide à l'aménagement urbain :
           - Cartographie des skateparks existants de Rennes Métropole.
           - Analyse de zones de chalandise à l'échelle des IRIS.
