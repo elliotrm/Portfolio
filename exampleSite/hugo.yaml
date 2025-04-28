@@ -105,8 +105,8 @@ params:
     enable: true
     intro: "Bonjour, je m'appelle"
     title: "Elliot Rault-Maisonneuve"
-    subtitle: "Je trouve des solutions à vos problématiques dans la data"
-    content: "Je suis étudiant en Master Mathématiques Appliquées aux Statistiques avec ambition d'accompagner les entreprises dans la transformation de vos insights liés à la data"
+    subtitle: "Passionné par la data, je transforme les données en solutions concrètes."
+    content: "Étudiant en Master Mathématiques Appliquées aux Statistiques, je mets ma passion pour la data au service des entreprises pour exploiter et valoriser leurs données."
     image: /images/me.jpg
     bottomImage:
       enable: true
@@ -124,16 +124,18 @@ params:
     title: "A propos de moi"
     image: "/images/Image-pro.jpg"
     content: |-
-      Je suis ...
+      Je suis étudiant en Master Mathématiques Appliquées aux Statistiques, parcours Science des Données Statistiques et Économétrie, à l'Université de Rennes. Je poursuis également un double diplôme au sein du Magistère Statistique et Modélisation Économique.
 
-      blablabla je fais plein de choses
+      Durant mon cursus, j'ai approfondi mes connaissances en mathématiques, informatique, statistique, économétrie et machine learning. Cette formation exigeante m'a permis de développer une approche rigoureuse et polyvalente de l'analyse de données, en combinant théorie avancée et applications concrètes.
+
+      Aujourd'hui, je suis passionné par l'idée d'utiliser les données pour résoudre des problématiques complexes et aider les organisations à prendre des décisions stratégiques basées sur des insights fiables.
     skills:
       enable: true
       title: "Voici différents langages et technologies avec lesquels je suis familier"
       items:
-        - "Pour la science des données : Python / R / SAS"
+        - "Pour la science des données : Python, R, SAS"
         - "Pour la visualisation des données : PowerBI, RShiny, QlikSense, Apache Superset"
-        - "Pour l'esthétisme de la visualisation des données : HTML/CSS/JS/PHP"
+        - "Pour l'esthétisme de la visualisation des données : HTML,CSS,JS"
         - "Pour la gestion des projets : Dataiku, Git"
         - "Pour la présentation des résultats : Pack Office"
 
@@ -146,25 +148,32 @@ params:
         company: "Enedis - Faculté des Sciences Économiques - Rennes"
         companyUrl: "https://www.enedis.fr/"
         date: "Janvier 2025"
-        content: "Prédiction des goulots d’étranglement au sein de l’activité d’Enedis, en nettoyant les données existantes (des chantiers, des horaires d'employés et le nombre d'employés disponibles), visualisation des données puis prédiction avec un modèle ARIMA"
+        content: |
+          Prédiction des goulots d’étranglement dans l’activité d’Enedis à partir de données internes. 
+          - Nettoyage et préparation de données de chantiers, d'horaires d'employés et de disponibilité des ressources humaines.
+          - Visualisation exploratoire des données.
+          - Modélisation de séries temporelles avec ARIMA pour anticiper les congestions opérationnelles.
 
       - job: "Assistant de Recherche en Stage"
         company: "Unissia - Plérin"
         companyUrl: "https://www.unissia.com/"
         date: "Mai 2024 - Août 2024"
-        content: 
-          Stage très intéressant où l'on a pu me proposer différentes missions liées à l'analyse de données et également en recherche pour améliorer un outil existant 
-          
-          - Programmation SAS pour du traitement de données
-          - Conception d’un tableau de bord (QlikSense) sur l’utilisation d’une application dans la filière porcine (PigConnect)
-          - Conception d’un outil d’apprentissage supervisé (avec TensorFlow) pour prédire la distance de muscle et de gras
-          - Travail en autonomie, réunion, présentation et reporting
+        content: |
+          Stage en data appliquée à l'agroalimentaire, orienté analyse et amélioration d'outils existants :
+          - Traitement de données via la programmation en SAS.
+          - Conception d’un tableau de bord sur QlikSense pour suivre l'utilisation d'une application dédiée à la filière porcine (PigConnect).
+          - Développement d’un modèle de machine learning supervisé (TensorFlow) pour prédire la composition musculaire et graisseuse.
+          - Travail en autonomie, participation à des réunions d'équipe, présentation des résultats et reporting régulier.
 
       - job: "Challenge Dataviz"
         company: "STEF - Faculté des Sciences Économiques - Rennes"
         companyUrl: "https://www.stef.com/france/"
         date: "Mars 2024"
-        content: Tableau de bord gestion RH qui a été réalisé sur Excel, avec des données qui nécessitaient un certain traitement.
+        content: |
+          Conception d'un tableau de bord RH sous Excel pour la gestion des effectifs :
+          - Nettoyage et structuration de données brutes.
+          - Création d'indicateurs clés de performance.
+          - Visualisation et synthèse pour faciliter la prise de décision.
 
   # Education
   education:
@@ -179,7 +188,9 @@ params:
         date: "2024 - 2026"
         GPA: "En cours d'obtention"
         content: |-
-          Consolidation des notions en mathématiques appliquées, apprentissage de différents langages de programmation et de gestion de base de données tels que Python, R, SAS, SQL dans le traitement des données, la visualisation des données, la prédiction des données.
+          Formation approfondie en statistique, machine learning, économétrie et traitement de données.
+          - Maîtrise de Python, R, SAS et SQL pour l'analyse, la modélisation et la visualisation de données.
+          - Application concrète sur des projets réels liés aux sciences économiques et à l'aide à la décision.
       - title: "Magistère Statistique et Modélisation Économique"
         school:
           name: "Université de Rennes"
@@ -187,63 +198,71 @@ params:
         date: "2023 - 2026"
         GPA: "En cours d'obtention"
         content: |-
-          blablabla
+          Double diplôme en parallèle avec le master, visant à approfondir l'expertise en statistique appliquée et en modélisation économique.
+          - Enseignements spécialisés en probabilités, Monte Carlo et Chaîne de Markov, Statistique spatiale, Analyse de survie.
+          - Élaboration de projets supplémentaires en parallèle du master, selon les différentes thématiques avancées.
       - title: "Licence Mathématiques, Informatique, Appliquées aux Sciences Humaines et Sociales"
         school:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2021 - 2024"
         GPA: "Mention Bien"
+        content: |-
+          Formation pluridisciplinaire combinant mathématiques, statistiques, informatique et sciences sociales.
+          - Acquisition de bases solides en programmation, statistique inférentielle et analyse de données.
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: ATP Tour Dashboard
+        content: |
+          Développement d'un tableau de bord interactif sur le tennis professionnel masculin :
+          - Visualisation de statistiques joueurs/équipes.
+          - Clustering de performances.
+          - Prédictions de résultats de matchs via des modèles de machine learning.
+        image: /images/projects/ATPtourdashboard.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://elliotrm.shinyapps.io/TennisDashboard/#home_ui-carousel1
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Rshiny"
+          - "R"
+          - "Machine Learning"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/elliotrm/Dashboard-ATPTOUR
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Analyse et prévisions du cours du CAC40
+        content: |
+          Projet complet d'analyse du CAC40 sur PowerBI :
+          - Nettoyage et analyse de données boursières (2023-2024).
+          - Visualisations dynamiques des tendances.
+          - Prévisions de l'évolution du marché pour le mois de janvier à l'aide de modèles de séries temporelles.
+        image: /images/projects/CAC40PowerBI.png
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "PowerBI"
+          - "R"
+          - "Séries temporelles"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/elliotrm/Analyse_prevision_du_cours_du_CAC40
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Skatepark Dashboard
+        content:  |
+          Conception d'un tableau de bord d'aide à l'aménagement urbain :
+          - Cartographie des skateparks existants de Rennes Métropole.
+          - Analyse de zones de chalandise à l'échelle des IRIS.
+          - Proposition d'un nouvel emplacement optimal basé sur des indicateurs socio-démographiques.
+        image: /images/projects/Skateparkdashboard.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Quarto Dashboard"
+          - "R"
+          - "Cartographie Iris"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/elliotrm/SkateparkDashboard
 
   #Contact
   contact:
