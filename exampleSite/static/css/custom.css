@@ -1,3 +1,11 @@
-img[src="/portfolio.png"] {
-    height: 60px; /* Ajuste la taille ici */
+/* Agrandir l'image dans la navbar */
+.navbar .brand-logo {
+    width: 100px;  /* Exemple de taille à ajuster */
+    height: auto;
+}
+
+/* Agrandir l'image dans le footer */
+.footer .brand-logo {
+    width: 100px;  /* Exemple de taille à ajuster */
+    height: auto;
 }
