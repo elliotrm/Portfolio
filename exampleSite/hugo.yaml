@@ -33,6 +33,7 @@ params:
   title: "Portfolio"
   description: Portfolio datascience
   # staticPath: ""  # The path to serve the static files from
+  favicon: "/portfolio.jpg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -83,7 +84,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/portfolio.jpg" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: true
@@ -110,7 +111,7 @@ params:
     image: /images/me.jpg
     bottomImage:
       enable: true
-      # roundImage: true # Make hero image circular | default false
+      roundImage: true # Make hero image circular | default false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -186,7 +187,7 @@ params:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2024 - 2026"
-        Note: "En cours d'obtention"
+        GPA: "En cours d'obtention"
         content: |-
           Formation approfondie en statistique, machine learning, économétrie et traitement de données.
           - Maîtrise de Python, R, SAS et SQL pour l'analyse, la modélisation et la visualisation de données.
@@ -196,7 +197,7 @@ params:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2023 - 2026"
-        Note: "En cours d'obtention"
+        GPA: "En cours d'obtention"
         content: |-
           Double diplôme en parallèle avec le master, visant à approfondir l'expertise en statistique appliquée et en modélisation économique.
           - Enseignements spécialisés en probabilités, Monte Carlo et Chaîne de Markov, Statistique spatiale, Analyse de survie.
@@ -206,7 +207,7 @@ params:
           name: "Université de Rennes"
           url: "https://www.univ-rennes.fr/"
         date: "2021 - 2024"
-        Note: "Mention Bien (5e/36)"
+        GPA: "Mention Bien (5e/36)"
         content: |-
           Formation pluridisciplinaire combinant mathématiques, statistiques, informatique et sciences sociales.
           - Acquisition de bases solides en programmation, statistique inférentielle et analyse de données.
@@ -214,7 +215,7 @@ params:
   # projects
   projects:
     enable: true
-    title: "Projets universitaires"
+    title: "Projets Universitaires"
     items:
       - title: ATP Tour Dashboard
         content: |
@@ -267,7 +268,7 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Boîte Mail"
     content: Ma boîte mail est ouverte. Si vous êtes intéressé par mon profil et que vous souhaitez travailler avec moi, faites le moi savoir !
     btnName: Envoyez moi un mail
     btnLink: mailto:elliot.rault-maisonneuve@outlook.fr
