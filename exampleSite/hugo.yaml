@@ -136,9 +136,9 @@ params:
       title: "Voici différents langages et technologies avec lesquels je suis familier"
       items:
         - "Python, R, SAS"
-        - "PowerBI, RShiny, QlikSense, Apache Superset"
-        - "HTML,CSS,JS"
         - "Dataiku, Git"
+        - "HTML,CSS,JS"
+        - "PowerBI, RShiny, QlikSense, Apache Superset"
         - "Pack Office (Excel, Word, PowerPoint)"
 
   # Experience
