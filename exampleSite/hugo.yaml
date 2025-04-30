@@ -135,11 +135,20 @@ params:
       enable: true
       title: "Voici différents langages et technologies avec lesquels je suis familier"
       items:
-        - "Pour la science des données : Python, R, SAS"
-        - "Pour la visualisation des données : PowerBI, RShiny, QlikSense, Apache Superset"
-        - "Pour l'esthétisme de la visualisation des données : HTML,CSS,JS"
-        - "Pour la gestion des projets : Dataiku, Git"
-        - "Pour la présentation des résultats : Pack Office"
+      - title: "Pour la science des données"
+        items: "Python, R, SAS"
+      
+      - title: "Pour la visualisation des données"
+        items: "PowerBI, RShiny, QlikSense, Apache Superset"
+      
+      - title: "Pour l'esthétisme de la visualisation des données"
+        items: "HTML, CSS, JS"
+      
+      - title: "Pour la gestion des projets"
+        items: "Dataiku, Git"
+      
+      - title: "Pour la présentation des résultats"
+        items: "Pack Office"
 
   # Experience
   experience:
