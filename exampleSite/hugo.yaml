@@ -138,8 +138,8 @@ params:
         - "Python, R, SAS"
         - "Dataiku, Git"
         - "HTML,CSS,JS"
-        - "PowerBI, RShiny, QlikSense, Apache Superset"
         - "Pack Office (Excel, Word, PowerPoint)"
+        - "PowerBI, RShiny, QlikSense, Apache Superset"
 
   # Experience
   experience:
