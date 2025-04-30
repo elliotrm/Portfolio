@@ -128,7 +128,7 @@ params:
     content: |-
       Je suis étudiant en Master Mathématiques Appliquées aux Statistiques, parcours Science des Données Statistiques et Économétrie, à l'Université de Rennes. Je poursuis également un double diplôme au sein du Magistère Statistique et Modélisation Économique.
 
-      Durant mon cursus, j'ai approfondi mes connaissances en mathématiques, informatique, statistique, économétrie et machine learning. Cette formation exigeante m'a permis de développer une approche rigoureuse et polyvalente de l'analyse de données, en combinant théorie avancée et applications concrètes.
+      Durant mon cursus, j'ai approfondi mes connaissances en mathématiques, informatique, statistique, économétrie et *machine learning*. Cette formation exigeante m'a permis de développer une approche rigoureuse et polyvalente de l'analyse de données, en combinant théorie avancée et applications concrètes.
 
       Aujourd'hui, je suis passionné par l'idée d'utiliser les données pour résoudre des problématiques complexes et aider les organisations à prendre des décisions stratégiques basées sur des insights fiables.
     skills:
@@ -136,8 +136,8 @@ params:
       title: "Voici différents langages et technologies avec lesquels je suis familier"
       items:
         - "Python, R, SAS"
+        - "HTML, CSS, JS"
         - "Dataiku, Git"
-        - "HTML,CSS,JS"
         - "Pack Office (Excel, Word, PowerPoint)"
         - "PowerBI, RShiny, QlikSense, Apache Superset"
 
@@ -164,7 +164,7 @@ params:
           Stage en data appliquée à l'agroalimentaire, orienté analyse et amélioration d'outils existants :
           - Traitement de données via la programmation en SAS.
           - Conception d’un tableau de bord sur QlikSense pour suivre l'utilisation d'une application dédiée à la filière porcine (PigConnect).
-          - Développement d’un modèle de machine learning supervisé (TensorFlow) pour prédire la composition musculaire et graisseuse.
+          - Développement d’un modèle de *machine learning* supervisé (TensorFlow) pour prédire la composition musculaire et graisseuse.
           - Travail en autonomie, participation à des réunions d'équipe, présentation des résultats et reporting régulier.
 
       - job: "Challenge Dataviz"
@@ -190,7 +190,7 @@ params:
         date: "2024 - 2026"
         GPA: "En cours d'obtention"
         content: |-
-          Formation approfondie en statistique, machine learning, économétrie et traitement de données.
+          Formation approfondie en statistique, *machine learning*, économétrie et traitement de données.
           - Maîtrise de Python, R, SAS et SQL pour l'analyse, la modélisation et la visualisation de données.
           - Application concrète sur des projets réels liés aux sciences économiques et à l'aide à la décision.
       - title: "Magistère Statistique et Modélisation Économique"
@@ -201,7 +201,7 @@ params:
         GPA: "En cours d'obtention"
         content: |-
           Double diplôme en parallèle avec le master, visant à approfondir l'expertise en statistique appliquée et en modélisation économique.
-          - Enseignements spécialisés en probabilités, Monte Carlo et Chaîne de Markov, Statistique spatiale, Analyse de survie.
+          - Enseignements spécialisés en probabilités, Monte Carlo et chaînes de Markov, Statistique spatiale, Analyse de survie.
           - Élaboration de projets supplémentaires en parallèle du master, selon les différentes thématiques avancées.
       - title: "Licence Mathématiques, Informatique, Appliquées aux Sciences Humaines et Sociales"
         school:
@@ -219,7 +219,7 @@ params:
     title: "Projets Universitaires"
     items:
       - title: ATP Tour Dashboard
-        content: Développement d'un tableau de bord interactif sur le tennis professionnel masculin avec une visualisation de statistiques joueurs/équipes, un clustering de performances et des prédictions de résultats de matchs via des modèles de machine learning.
+        content: Développement d'un tableau de bord interactif sur le tennis professionnel masculin avec une visualisation de statistiques joueurs/équipes, un clustering de performances et des prédictions de résultats de matchs via des modèles de *machine learning*.
         image: /images/projects/ATPtourdashboard.png
         featured:
           name: Demo
@@ -227,7 +227,7 @@ params:
         badges:
           - "Rshiny"
           - "R"
-          - "Machine Learning"
+          - "*Machine Learning*"
         links:
           - icon: fab fa-github
             url: https://github.com/elliotrm/Dashboard-ATPTOUR
@@ -254,8 +254,8 @@ params:
           - icon: fab fa-github
             url: https://github.com/elliotrm/SkateparkDashboard
 
-      - title: Bien être économique des français
-        content: Analyse du bien être économique des français en cherchant à expliquer les facteurs du bien être économique des français (ici le bonheur de la population française)
+      - title: Bien-être économique des français
+        content: Analyse du bien-être économique des français en cherchant à expliquer les facteurs du bien-être économique des français (ici le bonheur de la population française)
         image: /images/projects/bienetreeco.png
         badges:
           - "R"
@@ -266,7 +266,7 @@ params:
             url: https://github.com/elliotrm/BienetreeconomiqueFR
 
       - title: Étude de l'espérance de vie dans le monde (2022)
-        content: Analyse de l'espérance de vie dans le monde, selon plusieurs techniques d'économétrie avancées comme la régression linéaire par variables instrumentales 2SLS, les techniques de réduction de dimension PCA et PLS, les méthodes de régularisation Ridge, Lasso et Elastic Net et enfin le Double Machine Learning pour estimer les effets causaux.
+        content: Analyse de l'espérance de vie dans le monde, selon plusieurs techniques d'économétrie avancées comme la régression linéaire par variables instrumentales 2SLS, les techniques de réduction de dimension PCA et PLS, les méthodes de régularisation Ridge, Lasso et Elastic Net et enfin le Double *Machine Learning* pour estimer les effets causaux.
         image: /images/projects/espvie.png
         badges:
           - "R"
@@ -276,7 +276,7 @@ params:
             url: https://github.com/elliotrm/etudenivvie
 
       - title: Facebook conversion analysis
-        content: Ce projet a pour objectif d'analyser les données de conversion publicitaire Facebook à l'aide d'un dashboard interactif et de modèles de machine learning. Il a été effectué en anglais puisque c'était un projet dédié pour la matière d'anglais de cette première année de Master MAS.
+        content: Ce projet a pour objectif d'analyser les données de conversion publicitaire Facebook à l'aide d'un dashboard interactif et de modèles de *machine learning*. Il a été effectué en anglais puisque c'était un projet dédié pour la matière d'anglais de cette première année de Master MAS.
         image: /images/projects/fbconversion.png
         badges:
           - "Quarto Dashboard"
