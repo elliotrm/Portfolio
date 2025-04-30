@@ -180,7 +180,7 @@ params:
   # Education
   education:
     enable: true
-    title: "Éducation"
+    title: "Formation"
     index: false
     items:
       - title: "Master Mathématiques Appliquées aux Statistiques, Parcours Science des données Statistiques et Économétrie"
