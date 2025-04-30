@@ -109,7 +109,7 @@ params:
     title: "Elliot Rault-Maisonneuve"
     subtitle: "Passionné par la data, je transforme les données en solutions concrètes."
     content: "Étudiant en Master Mathématiques Appliquées aux Statistiques, je mets ma passion pour la data au service des entreprises pour exploiter et valoriser leurs données."
-    image: /images/me.jpg
+    image: /images/me.png
     bottomImage:
       enable: true
       roundImage: true # Make hero image circular | default false
