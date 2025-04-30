@@ -216,7 +216,7 @@ params:
   # projects
   projects:
     enable: true
-    title: "Projets Universitaires"
+    title: "Projets universitaires"
     items:
       - title: ATP Tour Dashboard
         content: Développement d'un tableau de bord interactif sur le tennis professionnel masculin avec une visualisation de statistiques joueurs/équipes, un clustering de performances et des prédictions de résultats de matchs via des modèles de *machine learning*.
@@ -289,7 +289,7 @@ params:
   #Contact
   contact:
     enable: true
-    title: "Boîte Mail"
+    title: "Boîte mail"
     content: Ma boîte mail est ouverte. Si vous êtes intéressé par mon profil et que vous souhaitez travailler avec moi, faites le moi savoir !
     btnName: Envoyez moi un mail
     btnLink: mailto:elliot.rault-maisonneuve@outlook.fr
