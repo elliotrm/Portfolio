@@ -135,7 +135,8 @@ params:
       enable: true
       title: "Voici différents langages et technologies avec lesquels je suis familier"
       items:
-        - "Python, R, SAS"
+        - "Python, R, SAS, Julia"
+        - "SQL, NoSQL"
         - "HTML, CSS, JS"
         - "Dataiku, Git"
         - "Pack Office (Excel, Word, PowerPoint)"
